@@ -1,2 +1,2 @@
-# OOPModule
-EU Voting Calculator
+# Object-OrientedProgramming-Module
+OOP Module 
