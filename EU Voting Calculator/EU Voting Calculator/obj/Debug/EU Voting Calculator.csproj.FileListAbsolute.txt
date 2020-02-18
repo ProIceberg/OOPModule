@@ -7,3 +7,14 @@ C:\Users\hardc\Object-OrientedProgramming-Module\Euro Voting Calculator\EU Votin
 C:\Users\hardc\Object-OrientedProgramming-Module\Euro Voting Calculator\EU Voting Calculator\EU Voting Calculator\obj\Debug\EU Voting Calculator.csproj.GenerateResource.cache
 C:\Users\hardc\Object-OrientedProgramming-Module\Euro Voting Calculator\EU Voting Calculator\EU Voting Calculator\obj\Debug\EU Voting Calculator.exe
 C:\Users\hardc\Object-OrientedProgramming-Module\Euro Voting Calculator\EU Voting Calculator\EU Voting Calculator\obj\Debug\EU Voting Calculator.pdb
+C:\Users\joe\Desktop\OOPModule\EU Voting Calculator\EU Voting Calculator\bin\Debug\EU Voting Calculator.exe.config
+C:\Users\joe\Desktop\OOPModule\EU Voting Calculator\EU Voting Calculator\bin\Debug\EU Voting Calculator.exe
+C:\Users\joe\Desktop\OOPModule\EU Voting Calculator\EU Voting Calculator\bin\Debug\EU Voting Calculator.pdb
+C:\Users\joe\Desktop\OOPModule\EU Voting Calculator\EU Voting Calculator\obj\Debug\EU Voting Calculator.csprojResolveAssemblyReference.cache
+C:\Users\joe\Desktop\OOPModule\EU Voting Calculator\EU Voting Calculator\obj\Debug\EU_Voting_Calculator.Form1.resources
+C:\Users\joe\Desktop\OOPModule\EU Voting Calculator\EU Voting Calculator\obj\Debug\EU_Voting_Calculator.Properties.Resources.resources
+C:\Users\joe\Desktop\OOPModule\EU Voting Calculator\EU Voting Calculator\obj\Debug\EU Voting Calculator.csproj.GenerateResource.Cache
+C:\Users\joe\Desktop\OOPModule\EU Voting Calculator\EU Voting Calculator\obj\Debug\EU Voting Calculator.csproj.CoreCompileInputs.cache
+C:\Users\joe\Desktop\OOPModule\EU Voting Calculator\EU Voting Calculator\obj\Debug\EU Voting Calculator.exe
+C:\Users\joe\Desktop\OOPModule\EU Voting Calculator\EU Voting Calculator\obj\Debug\EU Voting Calculator.pdb
+C:\Users\joe\Desktop\OOPModule\EU Voting Calculator\EU Voting Calculator\bin\Debug\country list.txt

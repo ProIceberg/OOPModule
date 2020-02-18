@@ -1,0 +1,27 @@
+Austria, FlagImages/Austria.png, 1.98
+Belgium, FlagImages/Belgium.png, 2.56
+Bulgaria, FlagImages/Bulgaria.png, 1.56
+Croatia, FlagImages/Croatia.png, 0.91
+Cyprus, FlagImages/Cyprus.png, 0.20
+Czech Republic, FlagImages/Czech.jpg, 2.35
+Denmark, FlagImages/Denmark.png, 1.30
+Estonia, FlagImages/Estonia.png, 0.30
+Finland, FlagImages/Finland.png, 1.23
+France, FlagImages/France.png, 14.98
+Germany, FlagImages/Germany.png, 18.54
+Greece, FlagImages/Greece.png, 2.40
+Hungary, FlagImages/Hungary.png, 2.18
+Ireland, FlagImages/Ireland.png, 1.10
+Italy, FlagImages/Italy.png, 13.65
+Latvia, FlagImages/Latvia.png, 0.43
+Lithuania, FlagImages/Lithuania.png, 0.62
+Luxembourg, FlagImages/Luxembourg.png, 0.14
+Malta, FlagImages/Malta.jpg, 0.11
+Netherlands, FlagImages/Netherlands.png, 3.89
+Poland, FlagImages/Poland.gif, 8.49
+Portugal, FlagImages/Portugal.jpg, 2.30
+Romania, FlagImages/Romania.png, 4.34
+Slovakia, FlagImages/Slovakia.png, 1.22
+Slovenia, FlagImages/Slovenia.png, 0.47
+Spain, FlagImages/Spain.jpg, 10.49
+Sweden, FlagImages/Sweden.png, 2.29

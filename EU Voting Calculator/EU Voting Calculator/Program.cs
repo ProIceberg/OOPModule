@@ -14,6 +14,9 @@ namespace EU_Voting_Calculator
         [STAThread]
         static void Main()
         {
+            //This creates a loader object that loads all the country data and creates country objects
+            Loader loadTest = new Loader();
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
