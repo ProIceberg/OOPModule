@@ -1,0 +1,9 @@
+C:\Users\hardc\Object-OrientedProgramming-Module\Euro Voting Calculator\EU Voting Calculator\EU Voting Calculator\bin\Debug\EU Voting Calculator.exe.config
+C:\Users\hardc\Object-OrientedProgramming-Module\Euro Voting Calculator\EU Voting Calculator\EU Voting Calculator\bin\Debug\EU Voting Calculator.exe
+C:\Users\hardc\Object-OrientedProgramming-Module\Euro Voting Calculator\EU Voting Calculator\EU Voting Calculator\bin\Debug\EU Voting Calculator.pdb
+C:\Users\hardc\Object-OrientedProgramming-Module\Euro Voting Calculator\EU Voting Calculator\EU Voting Calculator\obj\Debug\EU Voting Calculator.csprojAssemblyReference.cache
+C:\Users\hardc\Object-OrientedProgramming-Module\Euro Voting Calculator\EU Voting Calculator\EU Voting Calculator\obj\Debug\EU_Voting_Calculator.Form1.resources
+C:\Users\hardc\Object-OrientedProgramming-Module\Euro Voting Calculator\EU Voting Calculator\EU Voting Calculator\obj\Debug\EU_Voting_Calculator.Properties.Resources.resources
+C:\Users\hardc\Object-OrientedProgramming-Module\Euro Voting Calculator\EU Voting Calculator\EU Voting Calculator\obj\Debug\EU Voting Calculator.csproj.GenerateResource.cache
+C:\Users\hardc\Object-OrientedProgramming-Module\Euro Voting Calculator\EU Voting Calculator\EU Voting Calculator\obj\Debug\EU Voting Calculator.exe
+C:\Users\hardc\Object-OrientedProgramming-Module\Euro Voting Calculator\EU Voting Calculator\EU Voting Calculator\obj\Debug\EU Voting Calculator.pdb
