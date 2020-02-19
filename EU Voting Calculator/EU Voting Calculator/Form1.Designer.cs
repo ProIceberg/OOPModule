@@ -154,6 +154,25 @@ namespace EU_Voting_Calculator
             this.button72 = new System.Windows.Forms.Button();
             this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
+            this.button73 = new System.Windows.Forms.Button();
+            this.button74 = new System.Windows.Forms.Button();
+            this.button75 = new System.Windows.Forms.Button();
+            this.label26 = new System.Windows.Forms.Label();
+            this.pictureBox25 = new System.Windows.Forms.PictureBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.button76 = new System.Windows.Forms.Button();
+            this.button77 = new System.Windows.Forms.Button();
+            this.button78 = new System.Windows.Forms.Button();
+            this.pictureBox26 = new System.Windows.Forms.PictureBox();
+            this.pictureBox27 = new System.Windows.Forms.PictureBox();
+            this.button79 = new System.Windows.Forms.Button();
+            this.button80 = new System.Windows.Forms.Button();
+            this.button81 = new System.Windows.Forms.Button();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -178,6 +197,9 @@ namespace EU_Voting_Calculator
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -446,7 +468,7 @@ namespace EU_Voting_Calculator
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(552, 556);
+            this.label7.Location = new System.Drawing.Point(538, 555);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(66, 17);
             this.label7.TabIndex = 58;
@@ -491,7 +513,7 @@ namespace EU_Voting_Calculator
             // 
             // button16
             // 
-            this.button16.Location = new System.Drawing.Point(549, 619);
+            this.button16.Location = new System.Drawing.Point(543, 619);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(95, 27);
             this.button16.TabIndex = 53;
@@ -500,7 +522,7 @@ namespace EU_Voting_Calculator
             // 
             // button17
             // 
-            this.button17.Location = new System.Drawing.Point(599, 584);
+            this.button17.Location = new System.Drawing.Point(590, 584);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(45, 29);
             this.button17.TabIndex = 52;
@@ -509,7 +531,7 @@ namespace EU_Voting_Calculator
             // 
             // button18
             // 
-            this.button18.Location = new System.Drawing.Point(545, 584);
+            this.button18.Location = new System.Drawing.Point(540, 584);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(45, 29);
             this.button18.TabIndex = 51;
@@ -538,7 +560,7 @@ namespace EU_Voting_Calculator
             // 
             // button19
             // 
-            this.button19.Location = new System.Drawing.Point(549, 488);
+            this.button19.Location = new System.Drawing.Point(540, 487);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(95, 27);
             this.button19.TabIndex = 48;
@@ -547,7 +569,7 @@ namespace EU_Voting_Calculator
             // 
             // button20
             // 
-            this.button20.Location = new System.Drawing.Point(599, 453);
+            this.button20.Location = new System.Drawing.Point(590, 453);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(45, 29);
             this.button20.TabIndex = 47;
@@ -556,7 +578,7 @@ namespace EU_Voting_Calculator
             // 
             // button21
             // 
-            this.button21.Location = new System.Drawing.Point(548, 453);
+            this.button21.Location = new System.Drawing.Point(540, 452);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(45, 29);
             this.button21.TabIndex = 46;
@@ -713,7 +735,7 @@ namespace EU_Voting_Calculator
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(552, 691);
+            this.label13.Location = new System.Drawing.Point(538, 691);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(55, 17);
             this.label13.TabIndex = 64;
@@ -721,7 +743,7 @@ namespace EU_Voting_Calculator
             // 
             // button34
             // 
-            this.button34.Location = new System.Drawing.Point(555, 711);
+            this.button34.Location = new System.Drawing.Point(541, 711);
             this.button34.Name = "button34";
             this.button34.Size = new System.Drawing.Size(45, 29);
             this.button34.TabIndex = 65;
@@ -730,7 +752,7 @@ namespace EU_Voting_Calculator
             // 
             // button35
             // 
-            this.button35.Location = new System.Drawing.Point(606, 711);
+            this.button35.Location = new System.Drawing.Point(592, 711);
             this.button35.Name = "button35";
             this.button35.Size = new System.Drawing.Size(45, 29);
             this.button35.TabIndex = 66;
@@ -739,7 +761,7 @@ namespace EU_Voting_Calculator
             // 
             // button36
             // 
-            this.button36.Location = new System.Drawing.Point(556, 746);
+            this.button36.Location = new System.Drawing.Point(542, 746);
             this.button36.Name = "button36";
             this.button36.Size = new System.Drawing.Size(95, 27);
             this.button36.TabIndex = 67;
@@ -1026,7 +1048,7 @@ namespace EU_Voting_Calculator
             // 
             // button55
             // 
-            this.button55.Location = new System.Drawing.Point(1306, 744);
+            this.button55.Location = new System.Drawing.Point(888, 1003);
             this.button55.Name = "button55";
             this.button55.Size = new System.Drawing.Size(95, 27);
             this.button55.TabIndex = 127;
@@ -1035,7 +1057,7 @@ namespace EU_Voting_Calculator
             // 
             // button56
             // 
-            this.button56.Location = new System.Drawing.Point(1357, 711);
+            this.button56.Location = new System.Drawing.Point(939, 970);
             this.button56.Name = "button56";
             this.button56.Size = new System.Drawing.Size(45, 29);
             this.button56.TabIndex = 126;
@@ -1044,7 +1066,7 @@ namespace EU_Voting_Calculator
             // 
             // button57
             // 
-            this.button57.Location = new System.Drawing.Point(1303, 711);
+            this.button57.Location = new System.Drawing.Point(885, 970);
             this.button57.Name = "button57";
             this.button57.Size = new System.Drawing.Size(45, 29);
             this.button57.TabIndex = 125;
@@ -1054,7 +1076,7 @@ namespace EU_Voting_Calculator
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(1310, 691);
+            this.label20.Location = new System.Drawing.Point(878, 950);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(61, 17);
             this.label20.TabIndex = 124;
@@ -1063,7 +1085,7 @@ namespace EU_Voting_Calculator
             // pictureBox19
             // 
             this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
-            this.pictureBox19.Location = new System.Drawing.Point(1132, 691);
+            this.pictureBox19.Location = new System.Drawing.Point(714, 950);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(139, 105);
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1073,7 +1095,7 @@ namespace EU_Voting_Calculator
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(1300, 556);
+            this.label21.Location = new System.Drawing.Point(541, 950);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(64, 17);
             this.label21.TabIndex = 122;
@@ -1082,7 +1104,7 @@ namespace EU_Voting_Calculator
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(1300, 425);
+            this.label22.Location = new System.Drawing.Point(180, 950);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(61, 17);
             this.label22.TabIndex = 121;
@@ -1091,7 +1113,7 @@ namespace EU_Voting_Calculator
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(1298, 295);
+            this.label23.Location = new System.Drawing.Point(880, 829);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(52, 17);
             this.label23.TabIndex = 120;
@@ -1100,7 +1122,7 @@ namespace EU_Voting_Calculator
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(1296, 182);
+            this.label24.Location = new System.Drawing.Point(537, 829);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(85, 17);
             this.label24.TabIndex = 119;
@@ -1109,7 +1131,7 @@ namespace EU_Voting_Calculator
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(1296, 63);
+            this.label25.Location = new System.Drawing.Point(176, 825);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(42, 17);
             this.label25.TabIndex = 118;
@@ -1118,7 +1140,7 @@ namespace EU_Voting_Calculator
             // 
             // button58
             // 
-            this.button58.Location = new System.Drawing.Point(1307, 619);
+            this.button58.Location = new System.Drawing.Point(548, 1013);
             this.button58.Name = "button58";
             this.button58.Size = new System.Drawing.Size(95, 27);
             this.button58.TabIndex = 117;
@@ -1127,7 +1149,7 @@ namespace EU_Voting_Calculator
             // 
             // button59
             // 
-            this.button59.Location = new System.Drawing.Point(1357, 584);
+            this.button59.Location = new System.Drawing.Point(598, 978);
             this.button59.Name = "button59";
             this.button59.Size = new System.Drawing.Size(45, 29);
             this.button59.TabIndex = 116;
@@ -1136,7 +1158,7 @@ namespace EU_Voting_Calculator
             // 
             // button60
             // 
-            this.button60.Location = new System.Drawing.Point(1303, 584);
+            this.button60.Location = new System.Drawing.Point(544, 978);
             this.button60.Name = "button60";
             this.button60.Size = new System.Drawing.Size(45, 29);
             this.button60.TabIndex = 115;
@@ -1146,7 +1168,7 @@ namespace EU_Voting_Calculator
             // pictureBox20
             // 
             this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
-            this.pictureBox20.Location = new System.Drawing.Point(1132, 556);
+            this.pictureBox20.Location = new System.Drawing.Point(373, 950);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(139, 105);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1156,7 +1178,7 @@ namespace EU_Voting_Calculator
             // pictureBox21
             // 
             this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
-            this.pictureBox21.Location = new System.Drawing.Point(1132, 425);
+            this.pictureBox21.Location = new System.Drawing.Point(12, 950);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(139, 105);
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1165,7 +1187,7 @@ namespace EU_Voting_Calculator
             // 
             // button61
             // 
-            this.button61.Location = new System.Drawing.Point(1307, 488);
+            this.button61.Location = new System.Drawing.Point(187, 1013);
             this.button61.Name = "button61";
             this.button61.Size = new System.Drawing.Size(95, 27);
             this.button61.TabIndex = 112;
@@ -1174,7 +1196,7 @@ namespace EU_Voting_Calculator
             // 
             // button62
             // 
-            this.button62.Location = new System.Drawing.Point(1357, 453);
+            this.button62.Location = new System.Drawing.Point(237, 978);
             this.button62.Name = "button62";
             this.button62.Size = new System.Drawing.Size(45, 29);
             this.button62.TabIndex = 111;
@@ -1183,7 +1205,7 @@ namespace EU_Voting_Calculator
             // 
             // button63
             // 
-            this.button63.Location = new System.Drawing.Point(1306, 453);
+            this.button63.Location = new System.Drawing.Point(186, 978);
             this.button63.Name = "button63";
             this.button63.Size = new System.Drawing.Size(45, 29);
             this.button63.TabIndex = 110;
@@ -1192,7 +1214,7 @@ namespace EU_Voting_Calculator
             // 
             // button64
             // 
-            this.button64.Location = new System.Drawing.Point(1299, 358);
+            this.button64.Location = new System.Drawing.Point(881, 892);
             this.button64.Name = "button64";
             this.button64.Size = new System.Drawing.Size(95, 27);
             this.button64.TabIndex = 109;
@@ -1201,7 +1223,7 @@ namespace EU_Voting_Calculator
             // 
             // button65
             // 
-            this.button65.Location = new System.Drawing.Point(1348, 323);
+            this.button65.Location = new System.Drawing.Point(930, 857);
             this.button65.Name = "button65";
             this.button65.Size = new System.Drawing.Size(45, 29);
             this.button65.TabIndex = 108;
@@ -1210,7 +1232,7 @@ namespace EU_Voting_Calculator
             // 
             // button66
             // 
-            this.button66.Location = new System.Drawing.Point(1299, 323);
+            this.button66.Location = new System.Drawing.Point(881, 857);
             this.button66.Name = "button66";
             this.button66.Size = new System.Drawing.Size(45, 29);
             this.button66.TabIndex = 107;
@@ -1220,16 +1242,16 @@ namespace EU_Voting_Calculator
             // pictureBox22
             // 
             this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
-            this.pictureBox22.Location = new System.Drawing.Point(1132, 295);
+            this.pictureBox22.Location = new System.Drawing.Point(714, 824);
             this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(139, 105);
+            this.pictureBox22.Size = new System.Drawing.Size(139, 95);
             this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox22.TabIndex = 106;
             this.pictureBox22.TabStop = false;
             // 
             // button67
             // 
-            this.button67.Location = new System.Drawing.Point(1301, 245);
+            this.button67.Location = new System.Drawing.Point(542, 892);
             this.button67.Name = "button67";
             this.button67.Size = new System.Drawing.Size(95, 27);
             this.button67.TabIndex = 105;
@@ -1238,7 +1260,7 @@ namespace EU_Voting_Calculator
             // 
             // button68
             // 
-            this.button68.Location = new System.Drawing.Point(1350, 210);
+            this.button68.Location = new System.Drawing.Point(591, 857);
             this.button68.Name = "button68";
             this.button68.Size = new System.Drawing.Size(45, 29);
             this.button68.TabIndex = 104;
@@ -1247,7 +1269,7 @@ namespace EU_Voting_Calculator
             // 
             // button69
             // 
-            this.button69.Location = new System.Drawing.Point(1299, 210);
+            this.button69.Location = new System.Drawing.Point(540, 857);
             this.button69.Name = "button69";
             this.button69.Size = new System.Drawing.Size(45, 29);
             this.button69.TabIndex = 103;
@@ -1257,16 +1279,16 @@ namespace EU_Voting_Calculator
             // pictureBox23
             // 
             this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
-            this.pictureBox23.Location = new System.Drawing.Point(1132, 178);
+            this.pictureBox23.Location = new System.Drawing.Point(373, 824);
             this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(140, 94);
+            this.pictureBox23.Size = new System.Drawing.Size(140, 95);
             this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox23.TabIndex = 102;
             this.pictureBox23.TabStop = false;
             // 
             // button70
             // 
-            this.button70.Location = new System.Drawing.Point(1299, 126);
+            this.button70.Location = new System.Drawing.Point(179, 888);
             this.button70.Name = "button70";
             this.button70.Size = new System.Drawing.Size(94, 27);
             this.button70.TabIndex = 101;
@@ -1275,7 +1297,7 @@ namespace EU_Voting_Calculator
             // 
             // button71
             // 
-            this.button71.Location = new System.Drawing.Point(1351, 91);
+            this.button71.Location = new System.Drawing.Point(231, 853);
             this.button71.Name = "button71";
             this.button71.Size = new System.Drawing.Size(45, 29);
             this.button71.TabIndex = 100;
@@ -1284,7 +1306,7 @@ namespace EU_Voting_Calculator
             // 
             // button72
             // 
-            this.button72.Location = new System.Drawing.Point(1299, 91);
+            this.button72.Location = new System.Drawing.Point(179, 853);
             this.button72.Name = "button72";
             this.button72.Size = new System.Drawing.Size(45, 29);
             this.button72.TabIndex = 99;
@@ -1294,7 +1316,7 @@ namespace EU_Voting_Calculator
             // pictureBox24
             // 
             this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
-            this.pictureBox24.Location = new System.Drawing.Point(1132, 62);
+            this.pictureBox24.Location = new System.Drawing.Point(12, 824);
             this.pictureBox24.Name = "pictureBox24";
             this.pictureBox24.Size = new System.Drawing.Size(140, 91);
             this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1304,10 +1326,188 @@ namespace EU_Voting_Calculator
             // vScrollBar1
             // 
             this.vScrollBar1.AllowDrop = true;
-            this.vScrollBar1.Location = new System.Drawing.Point(1506, -2);
+            this.vScrollBar1.Location = new System.Drawing.Point(1662, 36);
             this.vScrollBar1.Name = "vScrollBar1";
             this.vScrollBar1.Size = new System.Drawing.Size(21, 836);
             this.vScrollBar1.TabIndex = 128;
+            // 
+            // button73
+            // 
+            this.button73.Location = new System.Drawing.Point(888, 1144);
+            this.button73.Name = "button73";
+            this.button73.Size = new System.Drawing.Size(95, 27);
+            this.button73.TabIndex = 143;
+            this.button73.Text = "Abstain";
+            this.button73.UseVisualStyleBackColor = true;
+            // 
+            // button74
+            // 
+            this.button74.Location = new System.Drawing.Point(939, 1111);
+            this.button74.Name = "button74";
+            this.button74.Size = new System.Drawing.Size(45, 29);
+            this.button74.TabIndex = 142;
+            this.button74.Text = "No";
+            this.button74.UseVisualStyleBackColor = true;
+            // 
+            // button75
+            // 
+            this.button75.Location = new System.Drawing.Point(885, 1111);
+            this.button75.Name = "button75";
+            this.button75.Size = new System.Drawing.Size(45, 29);
+            this.button75.TabIndex = 141;
+            this.button75.Text = "Yes";
+            this.button75.UseVisualStyleBackColor = true;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(879, 1091);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(58, 17);
+            this.label26.TabIndex = 140;
+            this.label26.Text = "Sweden";
+            // 
+            // pictureBox25
+            // 
+            this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
+            this.pictureBox25.Location = new System.Drawing.Point(714, 1091);
+            this.pictureBox25.Name = "pictureBox25";
+            this.pictureBox25.Size = new System.Drawing.Size(139, 105);
+            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox25.TabIndex = 139;
+            this.pictureBox25.TabStop = false;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(541, 1091);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(44, 17);
+            this.label27.TabIndex = 138;
+            this.label27.Text = "Spain";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(180, 1091);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(62, 17);
+            this.label28.TabIndex = 137;
+            this.label28.Text = "Slovenia";
+            // 
+            // button76
+            // 
+            this.button76.Location = new System.Drawing.Point(548, 1154);
+            this.button76.Name = "button76";
+            this.button76.Size = new System.Drawing.Size(95, 27);
+            this.button76.TabIndex = 136;
+            this.button76.Text = "Abstain";
+            this.button76.UseVisualStyleBackColor = true;
+            // 
+            // button77
+            // 
+            this.button77.Location = new System.Drawing.Point(598, 1119);
+            this.button77.Name = "button77";
+            this.button77.Size = new System.Drawing.Size(45, 29);
+            this.button77.TabIndex = 135;
+            this.button77.Text = "No";
+            this.button77.UseVisualStyleBackColor = true;
+            // 
+            // button78
+            // 
+            this.button78.Location = new System.Drawing.Point(544, 1119);
+            this.button78.Name = "button78";
+            this.button78.Size = new System.Drawing.Size(45, 29);
+            this.button78.TabIndex = 134;
+            this.button78.Text = "Yes";
+            this.button78.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox26
+            // 
+            this.pictureBox26.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox26.Image")));
+            this.pictureBox26.Location = new System.Drawing.Point(373, 1091);
+            this.pictureBox26.Name = "pictureBox26";
+            this.pictureBox26.Size = new System.Drawing.Size(139, 105);
+            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox26.TabIndex = 133;
+            this.pictureBox26.TabStop = false;
+            // 
+            // pictureBox27
+            // 
+            this.pictureBox27.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox27.Image")));
+            this.pictureBox27.Location = new System.Drawing.Point(12, 1091);
+            this.pictureBox27.Name = "pictureBox27";
+            this.pictureBox27.Size = new System.Drawing.Size(139, 105);
+            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox27.TabIndex = 132;
+            this.pictureBox27.TabStop = false;
+            // 
+            // button79
+            // 
+            this.button79.Location = new System.Drawing.Point(187, 1154);
+            this.button79.Name = "button79";
+            this.button79.Size = new System.Drawing.Size(95, 27);
+            this.button79.TabIndex = 131;
+            this.button79.Text = "Abstain";
+            this.button79.UseVisualStyleBackColor = true;
+            // 
+            // button80
+            // 
+            this.button80.Location = new System.Drawing.Point(237, 1119);
+            this.button80.Name = "button80";
+            this.button80.Size = new System.Drawing.Size(45, 29);
+            this.button80.TabIndex = 130;
+            this.button80.Text = "No";
+            this.button80.UseVisualStyleBackColor = true;
+            // 
+            // button81
+            // 
+            this.button81.Location = new System.Drawing.Point(186, 1119);
+            this.button81.Name = "button81";
+            this.button81.Size = new System.Drawing.Size(45, 29);
+            this.button81.TabIndex = 129;
+            this.button81.Text = "Yes";
+            this.button81.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(1016, 64);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(139, 21);
+            this.checkBox1.TabIndex = 144;
+            this.checkBox1.Text = "Qualified Majority";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(1016, 91);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(212, 21);
+            this.checkBox2.TabIndex = 145;
+            this.checkBox2.Text = "Reinforced Qualified Majority";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(1016, 118);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(125, 21);
+            this.checkBox3.TabIndex = 146;
+            this.checkBox3.Text = "Simple Majority";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(1016, 145);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(92, 21);
+            this.checkBox4.TabIndex = 147;
+            this.checkBox4.Text = "Unanimity";
+            this.checkBox4.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -1315,6 +1515,25 @@ namespace EU_Voting_Calculator
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1526, 864);
+            this.Controls.Add(this.checkBox4);
+            this.Controls.Add(this.checkBox3);
+            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.button73);
+            this.Controls.Add(this.button74);
+            this.Controls.Add(this.button75);
+            this.Controls.Add(this.label26);
+            this.Controls.Add(this.pictureBox25);
+            this.Controls.Add(this.label27);
+            this.Controls.Add(this.label28);
+            this.Controls.Add(this.button76);
+            this.Controls.Add(this.button77);
+            this.Controls.Add(this.button78);
+            this.Controls.Add(this.pictureBox26);
+            this.Controls.Add(this.pictureBox27);
+            this.Controls.Add(this.button79);
+            this.Controls.Add(this.button80);
+            this.Controls.Add(this.button81);
             this.Controls.Add(this.vScrollBar1);
             this.Controls.Add(this.button55);
             this.Controls.Add(this.button56);
@@ -1465,6 +1684,9 @@ namespace EU_Voting_Calculator
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1594,6 +1816,25 @@ namespace EU_Voting_Calculator
         private System.Windows.Forms.Button button72;
         private System.Windows.Forms.PictureBox pictureBox24;
         private VScrollBar vScrollBar1;
+        private Button button73;
+        private Button button74;
+        private Button button75;
+        private Label label26;
+        private PictureBox pictureBox25;
+        private Label label27;
+        private Label label28;
+        private Button button76;
+        private Button button77;
+        private Button button78;
+        private PictureBox pictureBox26;
+        private PictureBox pictureBox27;
+        private Button button79;
+        private Button button80;
+        private Button button81;
+        private CheckBox checkBox1;
+        private CheckBox checkBox2;
+        private CheckBox checkBox3;
+        private CheckBox checkBox4;
     }
 }
 
