@@ -77,12 +77,10 @@ namespace EU_Voting_Calculator
 
         }
 
-<<<<<<< HEAD
-        private void button4_Click(object sender, EventArgs e)
-        {
+//<<<<<<< HEAD
+        private void button4_Click(object sender, EventArgs e) =>
             //BELGIUM YES
             loader.countryList[1].setVote(0);
-        }
 
         private void button5_Click(object sender, EventArgs e)
         {
@@ -544,22 +542,7 @@ namespace EU_Voting_Calculator
         {
             //SWEDEN ABSTAIN
             loader.countryList[27].setVote(2);
-=======
-        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-                int iSelectedIndex = checkedListBox1.SelectedIndex;
-                if (iSelectedIndex == -1)
-                    return;
-                for (int iIndex = 0; iIndex < CheckedListBox1.Items.Count; iIndex++)
-                    checkedListBox1.SetItemCheckState(iIndex, CheckedState.Unchecked);
-                checkedListBox1.SetItemCheckState(iSelectedIndex, CheckState.Checked);
-            }
->>>>>>> 04f70acc4aaedf3bf8398d9acba982be2f18544b
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
-}}
+}
