@@ -544,5 +544,14 @@ namespace EU_Voting_Calculator
             loader.countryList[27].setVote(2);
         }
 
+        private void checkedListBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int iSelectedIndex = checkedListBox2.SelectedIndex;
+            if (iSelectedIndex == -1)
+                return;
+            for (int iIndex = 0; iIndex < checkedListBox2.Items.Count; iIndex++)
+                checkedListBox2.SetItemCheckState(iIndex, CheckState.Unchecked);
+            checkedListBox2.SetItemCheckState(iSelectedIndex, CheckState.Checked);
+        }
     }
 }

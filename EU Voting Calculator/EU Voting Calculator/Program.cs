@@ -26,14 +26,13 @@ namespace EU_Voting_Calculator
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-<<<<<<< HEAD
+
             Application.Run(new Form1(ref loader));
-=======
-            Application.Run(new Form1());
+           
 
             
            
->>>>>>> 04f70acc4aaedf3bf8398d9acba982be2f18544b
+
         }
 
       
