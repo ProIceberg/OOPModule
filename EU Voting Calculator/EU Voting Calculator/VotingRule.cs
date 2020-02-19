@@ -15,46 +15,73 @@ namespace EU_Voting_Calculator
         Loader load = new Loader();
 
 
-        public void PassRules(string RuleType)
+        public bool PassRules(string RuleType)
         {
             string info;
-            int percentage = 0.27;
-
+            var percentage = 0.27;
+            bool Passed;
+            
+            
             if (RuleType == "Qualified")
             {
                 info = "Minimum “Yes” required for adoption: (55%)";
-                if (yes >= (percentagex55))
+                if (yes >= (percentage*55))
                 {
+                    Passed = true;
+                    return Passed;
 
+                }
+                else
+                {
+                    Passed = false;             
+                    return Passed;
                 }
 
             }
             if (RuleType == "Reinforced")
             {
                 info = "Minimum “Yes” required for adoption: (72%)";
-                if (yes >= (percentagex72))
+                if (yes >= (percentage*72))
                 {
+                    Passed = true;
+                    return Passed;
 
+                }
+                else
+                {
+                    Passed = false;
+                    return Passed;
                 }
             }
             if (RuleType == "Simple")
             {
                 info = "Minimum “Yes” required for adoption: (50%)";
-                if (yes >= (percentagex50))
+                if (yes >= (percentage*50))
                 {
-
+                    Passed = true;
+                    return Passed;
+                }
+                else
+                {
+                    Passed = false;
+                    return Passed;
                 }
             }
             if (RuleType == "Unanimity")
             {
                 info = "Minimum “Yes” required for adoption: (100%)";
-                if (yes >= (percentagex100))
+                if (yes >= (percentage*100))
                 {
-
+                    Passed = true;
+                    return Passed;
                 }
-
+                else
+                {
+                    Passed = false;
+                    return Passed;
+                }
             }
-
+            return false ;
         }
 
         public void Vote()

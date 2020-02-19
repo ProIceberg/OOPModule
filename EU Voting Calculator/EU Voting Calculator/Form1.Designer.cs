@@ -169,10 +169,7 @@ namespace EU_Voting_Calculator
             this.button79 = new System.Windows.Forms.Button();
             this.button80 = new System.Windows.Forms.Button();
             this.button81 = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -1683,6 +1680,7 @@ namespace EU_Voting_Calculator
             this.button81.UseVisualStyleBackColor = true;
             this.button81.Click += new System.EventHandler(this.button81_Click);
             // 
+<<<<<<< HEAD
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
@@ -1726,6 +1724,21 @@ namespace EU_Voting_Calculator
             this.checkBox4.TabIndex = 147;
             this.checkBox4.Text = "Unanimity";
             this.checkBox4.UseVisualStyleBackColor = true;
+=======
+            // checkedListBox1
+            // 
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Items.AddRange(new object[] {
+            "Qualified Majority",
+            "Reinforced Qualified Majority",
+            "Simple Majority",
+            "Unanimity"});
+            this.checkedListBox1.Location = new System.Drawing.Point(896, 64);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(120, 94);
+            this.checkedListBox1.TabIndex = 144;
+            this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
+>>>>>>> 04f70acc4aaedf3bf8398d9acba982be2f18544b
             // 
             // Form1
             // 
@@ -1733,10 +1746,14 @@ namespace EU_Voting_Calculator
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1144, 702);
+<<<<<<< HEAD
             this.Controls.Add(this.checkBox4);
             this.Controls.Add(this.checkBox3);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
+=======
+            this.Controls.Add(this.checkedListBox1);
+>>>>>>> 04f70acc4aaedf3bf8398d9acba982be2f18544b
             this.Controls.Add(this.button73);
             this.Controls.Add(this.button74);
             this.Controls.Add(this.button75);
@@ -2050,10 +2067,7 @@ namespace EU_Voting_Calculator
         private Button button79;
         private Button button80;
         private Button button81;
-        private CheckBox checkBox1;
-        private CheckBox checkBox2;
-        private CheckBox checkBox3;
-        private CheckBox checkBox4;
+        private CheckedListBox checkedListBox1;
     }
 }
 
