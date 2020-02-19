@@ -1,0 +1,6 @@
+Qualified majority - 55% of votes are in favour, the proposal is supported by countries representing at least 65% of the EU population
+Reinforced Qualified majority - 72% of votes are in favour, representing 72% of the EU population
+Simple majority - 51% of the votes are in favour
+Unanimity - 100% of the ovtes are in favour
+
+NOTE - votes as abstain do not count toward the total. I.e. if 99% vote abstain and 1% vote yest, it passes unanimously

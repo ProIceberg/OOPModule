@@ -12,7 +12,7 @@ namespace EU_Voting_Calculator
         public string flag;
         public string name;
         public float population;
-        public int vote;
+        public int vote = 0;
 
         //Method used to get the state of the vote
         public int getVote()

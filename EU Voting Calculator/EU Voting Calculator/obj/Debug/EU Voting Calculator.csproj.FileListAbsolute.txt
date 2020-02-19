@@ -18,3 +18,13 @@ C:\Users\joe\Desktop\OOPModule\EU Voting Calculator\EU Voting Calculator\obj\Deb
 C:\Users\joe\Desktop\OOPModule\EU Voting Calculator\EU Voting Calculator\obj\Debug\EU Voting Calculator.exe
 C:\Users\joe\Desktop\OOPModule\EU Voting Calculator\EU Voting Calculator\obj\Debug\EU Voting Calculator.pdb
 C:\Users\joe\Desktop\OOPModule\EU Voting Calculator\EU Voting Calculator\bin\Debug\country list.txt
+C:\Users\RK\Desktop\OOPModule\EU Voting Calculator\EU Voting Calculator\bin\Debug\country list.txt
+C:\Users\RK\Desktop\OOPModule\EU Voting Calculator\EU Voting Calculator\bin\Debug\EU Voting Calculator.exe.config
+C:\Users\RK\Desktop\OOPModule\EU Voting Calculator\EU Voting Calculator\bin\Debug\EU Voting Calculator.exe
+C:\Users\RK\Desktop\OOPModule\EU Voting Calculator\EU Voting Calculator\bin\Debug\EU Voting Calculator.pdb
+C:\Users\RK\Desktop\OOPModule\EU Voting Calculator\EU Voting Calculator\obj\Debug\EU Voting Calculator.csprojAssemblyReference.cache
+C:\Users\RK\Desktop\OOPModule\EU Voting Calculator\EU Voting Calculator\obj\Debug\EU_Voting_Calculator.Form1.resources
+C:\Users\RK\Desktop\OOPModule\EU Voting Calculator\EU Voting Calculator\obj\Debug\EU_Voting_Calculator.Properties.Resources.resources
+C:\Users\RK\Desktop\OOPModule\EU Voting Calculator\EU Voting Calculator\obj\Debug\EU Voting Calculator.csproj.GenerateResource.cache
+C:\Users\RK\Desktop\OOPModule\EU Voting Calculator\EU Voting Calculator\obj\Debug\EU Voting Calculator.exe
+C:\Users\RK\Desktop\OOPModule\EU Voting Calculator\EU Voting Calculator\obj\Debug\EU Voting Calculator.pdb
