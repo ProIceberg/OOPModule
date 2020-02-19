@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EU_Voting_Calculator
 {
-    public class VotingRule
+    public class VotingCount
     {
         Loader load = new Loader();
 
@@ -30,15 +30,30 @@ namespace EU_Voting_Calculator
                 // Vote = No
                 if (vote == 1)
                 {
-
+                    no++;
                 }
                 // Vote = Abstain
                 if (vote == 2)
                 {
-
+                    abstain++;
                 }
             }
+       
+
+
         }
-}
+        public void YesVoteTotal()
+        {
+            return yes;
+        }
+        public void NoVoteTotal()
+        {
+            return no;
+        }
+        public void AbstainVoteTotal()
+        {
+            return Abstain;
+        }
+    }
 }
 
