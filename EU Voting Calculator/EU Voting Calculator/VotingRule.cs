@@ -17,24 +17,41 @@ namespace EU_Voting_Calculator
 
         public void PassRules(string RuleType)
         {
-
+            string info;
+            int percentage = 0.27;
 
             if (RuleType == "Qualified")
             {
-                string info = "Minimum “Yes” required for adoption: (55%)";
+                info = "Minimum “Yes” required for adoption: (55%)";
+                if (yes >= (percentagex55))
+                {
+
+                }
 
             }
             if (RuleType == "Reinforced")
             {
-                string info = "Minimum “Yes” required for adoption: (72%)";
+                info = "Minimum “Yes” required for adoption: (72%)";
+                if (yes >= (percentagex72))
+                {
+
+                }
             }
             if (RuleType == "Simple")
             {
-                string info = "Minimum “Yes” required for adoption: (50%)";
+                info = "Minimum “Yes” required for adoption: (50%)";
+                if (yes >= (percentagex50))
+                {
+
+                }
             }
             if (RuleType == "Unanimity")
             {
-                string info = "Minimum “Yes” required for adoption: (100%)";
+                info = "Minimum “Yes” required for adoption: (100%)";
+                if (yes >= (percentagex100))
+                {
+
+                }
 
             }
 
@@ -72,18 +89,7 @@ namespace EU_Voting_Calculator
 
 
         }
-        public void YesVoteTotal()
-        {
-            //return yes;
-        }
-        public void NoVoteTotal()
-        {
-            //return no;
-        }
-        public void AbstainVoteTotal()
-        {
-            //return Abstain;
-        }
+ 
     }
 }
 
