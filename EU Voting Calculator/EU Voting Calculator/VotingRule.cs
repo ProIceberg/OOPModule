@@ -13,19 +13,26 @@ namespace EU_Voting_Calculator
         public void Vote()
         {
             int vote;
+            int yes = 0;
+            int no = 0;
+            int abstain = 0;
 
             for (int i=0; i< load.countryList.Count; i++)
             {
                 vote = load.countryList[i].getVote();
 
+                // Vote = Yes
                 if (vote == 0)
                 {
+                    yes++;
 
                 }
+                // Vote = No
                 if (vote == 1)
                 {
 
                 }
+                // Vote = Abstain
                 if (vote == 2)
                 {
 
