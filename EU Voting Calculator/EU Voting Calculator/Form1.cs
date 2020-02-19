@@ -556,5 +556,10 @@ namespace EU_Voting_Calculator
             }
 >>>>>>> 04f70acc4aaedf3bf8398d9acba982be2f18544b
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }}

@@ -203,17 +203,18 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(9, 51);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(105, 74);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(131, 74);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(34, 24);
             this.button1.TabIndex = 3;
@@ -224,7 +225,7 @@ namespace EU_Voting_Calculator
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(170, 74);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(34, 24);
             this.button2.TabIndex = 4;
@@ -235,7 +236,7 @@ namespace EU_Voting_Calculator
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(132, 102);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(70, 22);
             this.button3.TabIndex = 5;
@@ -247,7 +248,7 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(9, 148);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(105, 76);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -257,7 +258,7 @@ namespace EU_Voting_Calculator
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(131, 171);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(34, 24);
             this.button4.TabIndex = 8;
@@ -268,7 +269,7 @@ namespace EU_Voting_Calculator
             // button5
             // 
             this.button5.Location = new System.Drawing.Point(170, 171);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(34, 24);
             this.button5.TabIndex = 9;
@@ -279,7 +280,7 @@ namespace EU_Voting_Calculator
             // button6
             // 
             this.button6.Location = new System.Drawing.Point(131, 199);
-            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(71, 22);
             this.button6.TabIndex = 10;
@@ -291,7 +292,7 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(10, 240);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(104, 85);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -301,7 +302,7 @@ namespace EU_Voting_Calculator
             // button7
             // 
             this.button7.Location = new System.Drawing.Point(131, 262);
-            this.button7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button7.Margin = new System.Windows.Forms.Padding(2);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(34, 24);
             this.button7.TabIndex = 13;
@@ -312,7 +313,7 @@ namespace EU_Voting_Calculator
             // button8
             // 
             this.button8.Location = new System.Drawing.Point(169, 262);
-            this.button8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button8.Margin = new System.Windows.Forms.Padding(2);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(34, 24);
             this.button8.TabIndex = 14;
@@ -323,7 +324,7 @@ namespace EU_Voting_Calculator
             // button9
             // 
             this.button9.Location = new System.Drawing.Point(131, 291);
-            this.button9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button9.Margin = new System.Windows.Forms.Padding(2);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(71, 22);
             this.button9.TabIndex = 15;
@@ -334,7 +335,7 @@ namespace EU_Voting_Calculator
             // button10
             // 
             this.button10.Location = new System.Drawing.Point(131, 368);
-            this.button10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button10.Margin = new System.Windows.Forms.Padding(2);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(34, 24);
             this.button10.TabIndex = 18;
@@ -345,7 +346,7 @@ namespace EU_Voting_Calculator
             // button11
             // 
             this.button11.Location = new System.Drawing.Point(169, 368);
-            this.button11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button11.Margin = new System.Windows.Forms.Padding(2);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(34, 24);
             this.button11.TabIndex = 19;
@@ -356,7 +357,7 @@ namespace EU_Voting_Calculator
             // button12
             // 
             this.button12.Location = new System.Drawing.Point(131, 396);
-            this.button12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button12.Margin = new System.Windows.Forms.Padding(2);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(71, 22);
             this.button12.TabIndex = 20;
@@ -368,7 +369,7 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(9, 345);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(104, 85);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -379,7 +380,7 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(9, 452);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(104, 85);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -389,7 +390,7 @@ namespace EU_Voting_Calculator
             // button13
             // 
             this.button13.Location = new System.Drawing.Point(131, 474);
-            this.button13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button13.Margin = new System.Windows.Forms.Padding(2);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(34, 24);
             this.button13.TabIndex = 24;
@@ -400,7 +401,7 @@ namespace EU_Voting_Calculator
             // button14
             // 
             this.button14.Location = new System.Drawing.Point(169, 474);
-            this.button14.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button14.Margin = new System.Windows.Forms.Padding(2);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(34, 24);
             this.button14.TabIndex = 25;
@@ -411,7 +412,7 @@ namespace EU_Voting_Calculator
             // button15
             // 
             this.button15.Location = new System.Drawing.Point(131, 503);
-            this.button15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button15.Margin = new System.Windows.Forms.Padding(2);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(71, 22);
             this.button15.TabIndex = 26;
@@ -484,7 +485,7 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.Location = new System.Drawing.Point(9, 561);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(104, 85);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -495,7 +496,7 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(280, 561);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(104, 85);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -556,7 +557,7 @@ namespace EU_Voting_Calculator
             // button16
             // 
             this.button16.Location = new System.Drawing.Point(407, 503);
-            this.button16.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button16.Margin = new System.Windows.Forms.Padding(2);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(71, 22);
             this.button16.TabIndex = 53;
@@ -567,7 +568,7 @@ namespace EU_Voting_Calculator
             // button17
             // 
             this.button17.Location = new System.Drawing.Point(442, 474);
-            this.button17.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button17.Margin = new System.Windows.Forms.Padding(2);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(34, 24);
             this.button17.TabIndex = 52;
@@ -578,7 +579,7 @@ namespace EU_Voting_Calculator
             // button18
             // 
             this.button18.Location = new System.Drawing.Point(405, 474);
-            this.button18.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button18.Margin = new System.Windows.Forms.Padding(2);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(34, 24);
             this.button18.TabIndex = 51;
@@ -590,7 +591,7 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
             this.pictureBox8.Location = new System.Drawing.Point(280, 452);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(104, 85);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -601,7 +602,7 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
             this.pictureBox9.Location = new System.Drawing.Point(280, 345);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(104, 85);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -611,7 +612,7 @@ namespace EU_Voting_Calculator
             // button19
             // 
             this.button19.Location = new System.Drawing.Point(405, 396);
-            this.button19.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button19.Margin = new System.Windows.Forms.Padding(2);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(71, 22);
             this.button19.TabIndex = 48;
@@ -622,7 +623,7 @@ namespace EU_Voting_Calculator
             // button20
             // 
             this.button20.Location = new System.Drawing.Point(442, 368);
-            this.button20.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button20.Margin = new System.Windows.Forms.Padding(2);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(34, 24);
             this.button20.TabIndex = 47;
@@ -633,7 +634,7 @@ namespace EU_Voting_Calculator
             // button21
             // 
             this.button21.Location = new System.Drawing.Point(405, 367);
-            this.button21.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button21.Margin = new System.Windows.Forms.Padding(2);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(34, 24);
             this.button21.TabIndex = 46;
@@ -644,7 +645,7 @@ namespace EU_Voting_Calculator
             // button22
             // 
             this.button22.Location = new System.Drawing.Point(406, 291);
-            this.button22.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button22.Margin = new System.Windows.Forms.Padding(2);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(71, 22);
             this.button22.TabIndex = 45;
@@ -655,7 +656,7 @@ namespace EU_Voting_Calculator
             // button23
             // 
             this.button23.Location = new System.Drawing.Point(442, 262);
-            this.button23.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button23.Margin = new System.Windows.Forms.Padding(2);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(34, 24);
             this.button23.TabIndex = 44;
@@ -666,7 +667,7 @@ namespace EU_Voting_Calculator
             // button24
             // 
             this.button24.Location = new System.Drawing.Point(406, 262);
-            this.button24.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button24.Margin = new System.Windows.Forms.Padding(2);
             this.button24.Name = "button24";
             this.button24.Size = new System.Drawing.Size(34, 24);
             this.button24.TabIndex = 43;
@@ -678,7 +679,7 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
             this.pictureBox10.Location = new System.Drawing.Point(280, 240);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(104, 85);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -688,7 +689,7 @@ namespace EU_Voting_Calculator
             // button25
             // 
             this.button25.Location = new System.Drawing.Point(407, 199);
-            this.button25.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button25.Margin = new System.Windows.Forms.Padding(2);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(71, 22);
             this.button25.TabIndex = 41;
@@ -699,7 +700,7 @@ namespace EU_Voting_Calculator
             // button26
             // 
             this.button26.Location = new System.Drawing.Point(444, 171);
-            this.button26.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button26.Margin = new System.Windows.Forms.Padding(2);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(34, 24);
             this.button26.TabIndex = 40;
@@ -710,7 +711,7 @@ namespace EU_Voting_Calculator
             // button27
             // 
             this.button27.Location = new System.Drawing.Point(406, 171);
-            this.button27.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button27.Margin = new System.Windows.Forms.Padding(2);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(34, 24);
             this.button27.TabIndex = 39;
@@ -722,7 +723,7 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
             this.pictureBox11.Location = new System.Drawing.Point(280, 145);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(105, 76);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -732,7 +733,7 @@ namespace EU_Voting_Calculator
             // button28
             // 
             this.button28.Location = new System.Drawing.Point(406, 102);
-            this.button28.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button28.Margin = new System.Windows.Forms.Padding(2);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(70, 22);
             this.button28.TabIndex = 37;
@@ -743,7 +744,7 @@ namespace EU_Voting_Calculator
             // button29
             // 
             this.button29.Location = new System.Drawing.Point(445, 74);
-            this.button29.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button29.Margin = new System.Windows.Forms.Padding(2);
             this.button29.Name = "button29";
             this.button29.Size = new System.Drawing.Size(34, 24);
             this.button29.TabIndex = 36;
@@ -754,7 +755,7 @@ namespace EU_Voting_Calculator
             // button30
             // 
             this.button30.Location = new System.Drawing.Point(406, 74);
-            this.button30.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button30.Margin = new System.Windows.Forms.Padding(2);
             this.button30.Name = "button30";
             this.button30.Size = new System.Drawing.Size(34, 24);
             this.button30.TabIndex = 35;
@@ -766,7 +767,7 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
             this.pictureBox12.Location = new System.Drawing.Point(280, 50);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(105, 74);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -786,7 +787,7 @@ namespace EU_Voting_Calculator
             // button31
             // 
             this.button31.Location = new System.Drawing.Point(131, 578);
-            this.button31.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button31.Margin = new System.Windows.Forms.Padding(2);
             this.button31.Name = "button31";
             this.button31.Size = new System.Drawing.Size(34, 24);
             this.button31.TabIndex = 61;
@@ -797,7 +798,7 @@ namespace EU_Voting_Calculator
             // button32
             // 
             this.button32.Location = new System.Drawing.Point(170, 578);
-            this.button32.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button32.Margin = new System.Windows.Forms.Padding(2);
             this.button32.Name = "button32";
             this.button32.Size = new System.Drawing.Size(34, 24);
             this.button32.TabIndex = 62;
@@ -808,7 +809,7 @@ namespace EU_Voting_Calculator
             // button33
             // 
             this.button33.Location = new System.Drawing.Point(131, 604);
-            this.button33.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button33.Margin = new System.Windows.Forms.Padding(2);
             this.button33.Name = "button33";
             this.button33.Size = new System.Drawing.Size(71, 22);
             this.button33.TabIndex = 63;
@@ -829,7 +830,7 @@ namespace EU_Voting_Calculator
             // button34
             // 
             this.button34.Location = new System.Drawing.Point(406, 578);
-            this.button34.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button34.Margin = new System.Windows.Forms.Padding(2);
             this.button34.Name = "button34";
             this.button34.Size = new System.Drawing.Size(34, 24);
             this.button34.TabIndex = 65;
@@ -840,7 +841,7 @@ namespace EU_Voting_Calculator
             // button35
             // 
             this.button35.Location = new System.Drawing.Point(444, 578);
-            this.button35.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button35.Margin = new System.Windows.Forms.Padding(2);
             this.button35.Name = "button35";
             this.button35.Size = new System.Drawing.Size(34, 24);
             this.button35.TabIndex = 66;
@@ -851,7 +852,7 @@ namespace EU_Voting_Calculator
             // button36
             // 
             this.button36.Location = new System.Drawing.Point(406, 606);
-            this.button36.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button36.Margin = new System.Windows.Forms.Padding(2);
             this.button36.Name = "button36";
             this.button36.Size = new System.Drawing.Size(71, 22);
             this.button36.TabIndex = 67;
@@ -862,7 +863,7 @@ namespace EU_Voting_Calculator
             // button37
             // 
             this.button37.Location = new System.Drawing.Point(663, 606);
-            this.button37.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button37.Margin = new System.Windows.Forms.Padding(2);
             this.button37.Name = "button37";
             this.button37.Size = new System.Drawing.Size(71, 22);
             this.button37.TabIndex = 97;
@@ -873,7 +874,7 @@ namespace EU_Voting_Calculator
             // button38
             // 
             this.button38.Location = new System.Drawing.Point(698, 578);
-            this.button38.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button38.Margin = new System.Windows.Forms.Padding(2);
             this.button38.Name = "button38";
             this.button38.Size = new System.Drawing.Size(34, 24);
             this.button38.TabIndex = 96;
@@ -884,7 +885,7 @@ namespace EU_Voting_Calculator
             // button39
             // 
             this.button39.Location = new System.Drawing.Point(663, 578);
-            this.button39.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button39.Margin = new System.Windows.Forms.Padding(2);
             this.button39.Name = "button39";
             this.button39.Size = new System.Drawing.Size(34, 24);
             this.button39.TabIndex = 95;
@@ -906,7 +907,7 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
             this.pictureBox13.Location = new System.Drawing.Point(536, 561);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox13.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(104, 85);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -968,7 +969,7 @@ namespace EU_Voting_Calculator
             // button40
             // 
             this.button40.Location = new System.Drawing.Point(662, 502);
-            this.button40.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button40.Margin = new System.Windows.Forms.Padding(2);
             this.button40.Name = "button40";
             this.button40.Size = new System.Drawing.Size(71, 22);
             this.button40.TabIndex = 87;
@@ -979,7 +980,7 @@ namespace EU_Voting_Calculator
             // button41
             // 
             this.button41.Location = new System.Drawing.Point(698, 474);
-            this.button41.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button41.Margin = new System.Windows.Forms.Padding(2);
             this.button41.Name = "button41";
             this.button41.Size = new System.Drawing.Size(34, 24);
             this.button41.TabIndex = 86;
@@ -990,7 +991,7 @@ namespace EU_Voting_Calculator
             // button42
             // 
             this.button42.Location = new System.Drawing.Point(661, 474);
-            this.button42.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button42.Margin = new System.Windows.Forms.Padding(2);
             this.button42.Name = "button42";
             this.button42.Size = new System.Drawing.Size(34, 24);
             this.button42.TabIndex = 85;
@@ -1002,7 +1003,7 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
             this.pictureBox14.Location = new System.Drawing.Point(536, 452);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox14.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(104, 85);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1013,7 +1014,7 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
             this.pictureBox15.Location = new System.Drawing.Point(536, 345);
-            this.pictureBox15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox15.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(104, 85);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1023,7 +1024,7 @@ namespace EU_Voting_Calculator
             // button43
             // 
             this.button43.Location = new System.Drawing.Point(661, 396);
-            this.button43.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button43.Margin = new System.Windows.Forms.Padding(2);
             this.button43.Name = "button43";
             this.button43.Size = new System.Drawing.Size(71, 22);
             this.button43.TabIndex = 82;
@@ -1034,7 +1035,7 @@ namespace EU_Voting_Calculator
             // button44
             // 
             this.button44.Location = new System.Drawing.Point(698, 367);
-            this.button44.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button44.Margin = new System.Windows.Forms.Padding(2);
             this.button44.Name = "button44";
             this.button44.Size = new System.Drawing.Size(34, 24);
             this.button44.TabIndex = 81;
@@ -1045,7 +1046,7 @@ namespace EU_Voting_Calculator
             // button45
             // 
             this.button45.Location = new System.Drawing.Point(661, 367);
-            this.button45.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button45.Margin = new System.Windows.Forms.Padding(2);
             this.button45.Name = "button45";
             this.button45.Size = new System.Drawing.Size(34, 24);
             this.button45.TabIndex = 80;
@@ -1056,7 +1057,7 @@ namespace EU_Voting_Calculator
             // button46
             // 
             this.button46.Location = new System.Drawing.Point(661, 291);
-            this.button46.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button46.Margin = new System.Windows.Forms.Padding(2);
             this.button46.Name = "button46";
             this.button46.Size = new System.Drawing.Size(71, 22);
             this.button46.TabIndex = 79;
@@ -1067,7 +1068,7 @@ namespace EU_Voting_Calculator
             // button47
             // 
             this.button47.Location = new System.Drawing.Point(698, 262);
-            this.button47.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button47.Margin = new System.Windows.Forms.Padding(2);
             this.button47.Name = "button47";
             this.button47.Size = new System.Drawing.Size(34, 24);
             this.button47.TabIndex = 78;
@@ -1078,7 +1079,7 @@ namespace EU_Voting_Calculator
             // button48
             // 
             this.button48.Location = new System.Drawing.Point(661, 262);
-            this.button48.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button48.Margin = new System.Windows.Forms.Padding(2);
             this.button48.Name = "button48";
             this.button48.Size = new System.Drawing.Size(34, 24);
             this.button48.TabIndex = 77;
@@ -1090,7 +1091,7 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
             this.pictureBox16.Location = new System.Drawing.Point(536, 240);
-            this.pictureBox16.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox16.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(104, 85);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1100,7 +1101,7 @@ namespace EU_Voting_Calculator
             // button49
             // 
             this.button49.Location = new System.Drawing.Point(662, 199);
-            this.button49.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button49.Margin = new System.Windows.Forms.Padding(2);
             this.button49.Name = "button49";
             this.button49.Size = new System.Drawing.Size(71, 22);
             this.button49.TabIndex = 75;
@@ -1111,7 +1112,7 @@ namespace EU_Voting_Calculator
             // button50
             // 
             this.button50.Location = new System.Drawing.Point(699, 171);
-            this.button50.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button50.Margin = new System.Windows.Forms.Padding(2);
             this.button50.Name = "button50";
             this.button50.Size = new System.Drawing.Size(34, 24);
             this.button50.TabIndex = 74;
@@ -1122,7 +1123,7 @@ namespace EU_Voting_Calculator
             // button51
             // 
             this.button51.Location = new System.Drawing.Point(661, 171);
-            this.button51.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button51.Margin = new System.Windows.Forms.Padding(2);
             this.button51.Name = "button51";
             this.button51.Size = new System.Drawing.Size(34, 24);
             this.button51.TabIndex = 73;
@@ -1134,7 +1135,7 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox17.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox17.Image")));
             this.pictureBox17.Location = new System.Drawing.Point(536, 144);
-            this.pictureBox17.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox17.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(105, 76);
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1144,7 +1145,7 @@ namespace EU_Voting_Calculator
             // button52
             // 
             this.button52.Location = new System.Drawing.Point(661, 102);
-            this.button52.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button52.Margin = new System.Windows.Forms.Padding(2);
             this.button52.Name = "button52";
             this.button52.Size = new System.Drawing.Size(70, 22);
             this.button52.TabIndex = 71;
@@ -1155,7 +1156,7 @@ namespace EU_Voting_Calculator
             // button53
             // 
             this.button53.Location = new System.Drawing.Point(700, 74);
-            this.button53.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button53.Margin = new System.Windows.Forms.Padding(2);
             this.button53.Name = "button53";
             this.button53.Size = new System.Drawing.Size(34, 24);
             this.button53.TabIndex = 70;
@@ -1166,7 +1167,7 @@ namespace EU_Voting_Calculator
             // button54
             // 
             this.button54.Location = new System.Drawing.Point(661, 74);
-            this.button54.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button54.Margin = new System.Windows.Forms.Padding(2);
             this.button54.Name = "button54";
             this.button54.Size = new System.Drawing.Size(34, 24);
             this.button54.TabIndex = 69;
@@ -1178,7 +1179,7 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
             this.pictureBox18.Location = new System.Drawing.Point(536, 50);
-            this.pictureBox18.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox18.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(105, 74);
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1188,7 +1189,7 @@ namespace EU_Voting_Calculator
             // button55
             // 
             this.button55.Location = new System.Drawing.Point(666, 815);
-            this.button55.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button55.Margin = new System.Windows.Forms.Padding(2);
             this.button55.Name = "button55";
             this.button55.Size = new System.Drawing.Size(71, 22);
             this.button55.TabIndex = 127;
@@ -1199,7 +1200,7 @@ namespace EU_Voting_Calculator
             // button56
             // 
             this.button56.Location = new System.Drawing.Point(704, 788);
-            this.button56.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button56.Margin = new System.Windows.Forms.Padding(2);
             this.button56.Name = "button56";
             this.button56.Size = new System.Drawing.Size(34, 24);
             this.button56.TabIndex = 126;
@@ -1210,7 +1211,7 @@ namespace EU_Voting_Calculator
             // button57
             // 
             this.button57.Location = new System.Drawing.Point(664, 788);
-            this.button57.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button57.Margin = new System.Windows.Forms.Padding(2);
             this.button57.Name = "button57";
             this.button57.Size = new System.Drawing.Size(34, 24);
             this.button57.TabIndex = 125;
@@ -1232,7 +1233,7 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
             this.pictureBox19.Location = new System.Drawing.Point(536, 772);
-            this.pictureBox19.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox19.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(104, 85);
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1293,7 +1294,7 @@ namespace EU_Voting_Calculator
             // button58
             // 
             this.button58.Location = new System.Drawing.Point(411, 823);
-            this.button58.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button58.Margin = new System.Windows.Forms.Padding(2);
             this.button58.Name = "button58";
             this.button58.Size = new System.Drawing.Size(71, 22);
             this.button58.TabIndex = 117;
@@ -1304,7 +1305,7 @@ namespace EU_Voting_Calculator
             // button59
             // 
             this.button59.Location = new System.Drawing.Point(448, 795);
-            this.button59.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button59.Margin = new System.Windows.Forms.Padding(2);
             this.button59.Name = "button59";
             this.button59.Size = new System.Drawing.Size(34, 24);
             this.button59.TabIndex = 116;
@@ -1315,7 +1316,7 @@ namespace EU_Voting_Calculator
             // button60
             // 
             this.button60.Location = new System.Drawing.Point(408, 795);
-            this.button60.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button60.Margin = new System.Windows.Forms.Padding(2);
             this.button60.Name = "button60";
             this.button60.Size = new System.Drawing.Size(34, 24);
             this.button60.TabIndex = 115;
@@ -1327,7 +1328,7 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
             this.pictureBox20.Location = new System.Drawing.Point(280, 772);
-            this.pictureBox20.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox20.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(104, 85);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1338,7 +1339,7 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
             this.pictureBox21.Location = new System.Drawing.Point(9, 772);
-            this.pictureBox21.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox21.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(104, 85);
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1348,7 +1349,7 @@ namespace EU_Voting_Calculator
             // button61
             // 
             this.button61.Location = new System.Drawing.Point(140, 823);
-            this.button61.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button61.Margin = new System.Windows.Forms.Padding(2);
             this.button61.Name = "button61";
             this.button61.Size = new System.Drawing.Size(71, 22);
             this.button61.TabIndex = 112;
@@ -1359,7 +1360,7 @@ namespace EU_Voting_Calculator
             // button62
             // 
             this.button62.Location = new System.Drawing.Point(178, 795);
-            this.button62.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button62.Margin = new System.Windows.Forms.Padding(2);
             this.button62.Name = "button62";
             this.button62.Size = new System.Drawing.Size(34, 24);
             this.button62.TabIndex = 111;
@@ -1370,7 +1371,7 @@ namespace EU_Voting_Calculator
             // button63
             // 
             this.button63.Location = new System.Drawing.Point(140, 795);
-            this.button63.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button63.Margin = new System.Windows.Forms.Padding(2);
             this.button63.Name = "button63";
             this.button63.Size = new System.Drawing.Size(34, 24);
             this.button63.TabIndex = 110;
@@ -1381,7 +1382,7 @@ namespace EU_Voting_Calculator
             // button64
             // 
             this.button64.Location = new System.Drawing.Point(661, 725);
-            this.button64.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button64.Margin = new System.Windows.Forms.Padding(2);
             this.button64.Name = "button64";
             this.button64.Size = new System.Drawing.Size(71, 22);
             this.button64.TabIndex = 109;
@@ -1392,7 +1393,7 @@ namespace EU_Voting_Calculator
             // button65
             // 
             this.button65.Location = new System.Drawing.Point(698, 696);
-            this.button65.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button65.Margin = new System.Windows.Forms.Padding(2);
             this.button65.Name = "button65";
             this.button65.Size = new System.Drawing.Size(34, 24);
             this.button65.TabIndex = 108;
@@ -1403,7 +1404,7 @@ namespace EU_Voting_Calculator
             // button66
             // 
             this.button66.Location = new System.Drawing.Point(661, 696);
-            this.button66.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button66.Margin = new System.Windows.Forms.Padding(2);
             this.button66.Name = "button66";
             this.button66.Size = new System.Drawing.Size(34, 24);
             this.button66.TabIndex = 107;
@@ -1415,7 +1416,7 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
             this.pictureBox22.Location = new System.Drawing.Point(536, 670);
-            this.pictureBox22.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox22.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(104, 77);
             this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1425,7 +1426,7 @@ namespace EU_Voting_Calculator
             // button67
             // 
             this.button67.Location = new System.Drawing.Point(406, 725);
-            this.button67.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button67.Margin = new System.Windows.Forms.Padding(2);
             this.button67.Name = "button67";
             this.button67.Size = new System.Drawing.Size(71, 22);
             this.button67.TabIndex = 105;
@@ -1436,7 +1437,7 @@ namespace EU_Voting_Calculator
             // button68
             // 
             this.button68.Location = new System.Drawing.Point(443, 696);
-            this.button68.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button68.Margin = new System.Windows.Forms.Padding(2);
             this.button68.Name = "button68";
             this.button68.Size = new System.Drawing.Size(34, 24);
             this.button68.TabIndex = 104;
@@ -1447,7 +1448,7 @@ namespace EU_Voting_Calculator
             // button69
             // 
             this.button69.Location = new System.Drawing.Point(405, 696);
-            this.button69.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button69.Margin = new System.Windows.Forms.Padding(2);
             this.button69.Name = "button69";
             this.button69.Size = new System.Drawing.Size(34, 24);
             this.button69.TabIndex = 103;
@@ -1459,7 +1460,7 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
             this.pictureBox23.Location = new System.Drawing.Point(280, 670);
-            this.pictureBox23.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox23.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(105, 77);
             this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1469,7 +1470,7 @@ namespace EU_Voting_Calculator
             // button70
             // 
             this.button70.Location = new System.Drawing.Point(134, 722);
-            this.button70.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button70.Margin = new System.Windows.Forms.Padding(2);
             this.button70.Name = "button70";
             this.button70.Size = new System.Drawing.Size(70, 22);
             this.button70.TabIndex = 101;
@@ -1480,7 +1481,7 @@ namespace EU_Voting_Calculator
             // button71
             // 
             this.button71.Location = new System.Drawing.Point(173, 693);
-            this.button71.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button71.Margin = new System.Windows.Forms.Padding(2);
             this.button71.Name = "button71";
             this.button71.Size = new System.Drawing.Size(34, 24);
             this.button71.TabIndex = 100;
@@ -1491,7 +1492,7 @@ namespace EU_Voting_Calculator
             // button72
             // 
             this.button72.Location = new System.Drawing.Point(134, 693);
-            this.button72.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button72.Margin = new System.Windows.Forms.Padding(2);
             this.button72.Name = "button72";
             this.button72.Size = new System.Drawing.Size(34, 24);
             this.button72.TabIndex = 99;
@@ -1503,7 +1504,7 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
             this.pictureBox24.Location = new System.Drawing.Point(9, 670);
-            this.pictureBox24.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox24.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox24.Name = "pictureBox24";
             this.pictureBox24.Size = new System.Drawing.Size(105, 74);
             this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1521,7 +1522,7 @@ namespace EU_Voting_Calculator
             // button73
             // 
             this.button73.Location = new System.Drawing.Point(666, 930);
-            this.button73.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button73.Margin = new System.Windows.Forms.Padding(2);
             this.button73.Name = "button73";
             this.button73.Size = new System.Drawing.Size(71, 22);
             this.button73.TabIndex = 143;
@@ -1532,7 +1533,7 @@ namespace EU_Voting_Calculator
             // button74
             // 
             this.button74.Location = new System.Drawing.Point(704, 903);
-            this.button74.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button74.Margin = new System.Windows.Forms.Padding(2);
             this.button74.Name = "button74";
             this.button74.Size = new System.Drawing.Size(34, 24);
             this.button74.TabIndex = 142;
@@ -1543,7 +1544,7 @@ namespace EU_Voting_Calculator
             // button75
             // 
             this.button75.Location = new System.Drawing.Point(664, 903);
-            this.button75.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button75.Margin = new System.Windows.Forms.Padding(2);
             this.button75.Name = "button75";
             this.button75.Size = new System.Drawing.Size(34, 24);
             this.button75.TabIndex = 141;
@@ -1565,7 +1566,7 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
             this.pictureBox25.Location = new System.Drawing.Point(536, 886);
-            this.pictureBox25.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox25.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox25.Name = "pictureBox25";
             this.pictureBox25.Size = new System.Drawing.Size(104, 85);
             this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1595,7 +1596,7 @@ namespace EU_Voting_Calculator
             // button76
             // 
             this.button76.Location = new System.Drawing.Point(411, 938);
-            this.button76.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button76.Margin = new System.Windows.Forms.Padding(2);
             this.button76.Name = "button76";
             this.button76.Size = new System.Drawing.Size(71, 22);
             this.button76.TabIndex = 136;
@@ -1606,7 +1607,7 @@ namespace EU_Voting_Calculator
             // button77
             // 
             this.button77.Location = new System.Drawing.Point(448, 909);
-            this.button77.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button77.Margin = new System.Windows.Forms.Padding(2);
             this.button77.Name = "button77";
             this.button77.Size = new System.Drawing.Size(34, 24);
             this.button77.TabIndex = 135;
@@ -1617,7 +1618,7 @@ namespace EU_Voting_Calculator
             // button78
             // 
             this.button78.Location = new System.Drawing.Point(408, 909);
-            this.button78.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button78.Margin = new System.Windows.Forms.Padding(2);
             this.button78.Name = "button78";
             this.button78.Size = new System.Drawing.Size(34, 24);
             this.button78.TabIndex = 134;
@@ -1629,7 +1630,7 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox26.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox26.Image")));
             this.pictureBox26.Location = new System.Drawing.Point(280, 886);
-            this.pictureBox26.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox26.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox26.Name = "pictureBox26";
             this.pictureBox26.Size = new System.Drawing.Size(104, 85);
             this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1640,7 +1641,7 @@ namespace EU_Voting_Calculator
             // 
             this.pictureBox27.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox27.Image")));
             this.pictureBox27.Location = new System.Drawing.Point(9, 886);
-            this.pictureBox27.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox27.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox27.Name = "pictureBox27";
             this.pictureBox27.Size = new System.Drawing.Size(104, 85);
             this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1650,7 +1651,7 @@ namespace EU_Voting_Calculator
             // button79
             // 
             this.button79.Location = new System.Drawing.Point(140, 938);
-            this.button79.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button79.Margin = new System.Windows.Forms.Padding(2);
             this.button79.Name = "button79";
             this.button79.Size = new System.Drawing.Size(71, 22);
             this.button79.TabIndex = 131;
@@ -1661,7 +1662,7 @@ namespace EU_Voting_Calculator
             // button80
             // 
             this.button80.Location = new System.Drawing.Point(178, 909);
-            this.button80.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button80.Margin = new System.Windows.Forms.Padding(2);
             this.button80.Name = "button80";
             this.button80.Size = new System.Drawing.Size(34, 24);
             this.button80.TabIndex = 130;
@@ -1672,7 +1673,7 @@ namespace EU_Voting_Calculator
             // button81
             // 
             this.button81.Location = new System.Drawing.Point(140, 909);
-            this.button81.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button81.Margin = new System.Windows.Forms.Padding(2);
             this.button81.Name = "button81";
             this.button81.Size = new System.Drawing.Size(34, 24);
             this.button81.TabIndex = 129;
@@ -1680,80 +1681,19 @@ namespace EU_Voting_Calculator
             this.button81.UseVisualStyleBackColor = true;
             this.button81.Click += new System.EventHandler(this.button81_Click);
             // 
-<<<<<<< HEAD
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(762, 52);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(106, 17);
-            this.checkBox1.TabIndex = 144;
-            this.checkBox1.Text = "Qualified Majority";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(762, 74);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(161, 17);
-            this.checkBox2.TabIndex = 145;
-            this.checkBox2.Text = "Reinforced Qualified Majority";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(762, 96);
-            this.checkBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(96, 17);
-            this.checkBox3.TabIndex = 146;
-            this.checkBox3.Text = "Simple Majority";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(762, 118);
-            this.checkBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(72, 17);
-            this.checkBox4.TabIndex = 147;
-            this.checkBox4.Text = "Unanimity";
-            this.checkBox4.UseVisualStyleBackColor = true;
-=======
             // checkedListBox1
             // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Items.AddRange(new object[] {
-            "Qualified Majority",
-            "Reinforced Qualified Majority",
-            "Simple Majority",
-            "Unanimity"});
-            this.checkedListBox1.Location = new System.Drawing.Point(896, 64);
+            this.checkedListBox1.Location = new System.Drawing.Point(0, 0);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(120, 94);
-            this.checkedListBox1.TabIndex = 144;
-            this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
->>>>>>> 04f70acc4aaedf3bf8398d9acba982be2f18544b
+            this.checkedListBox1.Size = new System.Drawing.Size(120, 96);
+            this.checkedListBox1.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1144, 702);
-<<<<<<< HEAD
-            this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
-=======
-            this.Controls.Add(this.checkedListBox1);
->>>>>>> 04f70acc4aaedf3bf8398d9acba982be2f18544b
+            this.ClientSize = new System.Drawing.Size(1161, 719);
             this.Controls.Add(this.button73);
             this.Controls.Add(this.button74);
             this.Controls.Add(this.button75);
@@ -1891,7 +1831,7 @@ namespace EU_Voting_Calculator
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.RightToLeftLayout = true;
             this.Text = "s";
