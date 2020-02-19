@@ -1,5 +1,4 @@
 # Object-OrientedProgramming-Module
-OOP Module 
+OOP Module - Assignment 1
 
-
-Updated now
+EU Voting Calculator program
