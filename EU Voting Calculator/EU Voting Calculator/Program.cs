@@ -14,6 +14,13 @@ namespace EU_Voting_Calculator
         [STAThread]
         static void Main()
         {
+            Loader loader = new Loader();
+
+            for (int i = 0; i < loader.countryList.Count; i++)
+            {
+                loader.countryList[i].output();
+            }
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());

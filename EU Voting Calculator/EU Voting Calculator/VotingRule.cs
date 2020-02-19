@@ -74,15 +74,15 @@ namespace EU_Voting_Calculator
         }
         public void YesVoteTotal()
         {
-            return yes;
+            //return yes;
         }
         public void NoVoteTotal()
         {
-            return no;
+            //return no;
         }
         public void AbstainVoteTotal()
         {
-            return Abstain;
+            //return Abstain;
         }
     }
 }
