@@ -14,6 +14,9 @@ namespace EU_Voting_Calculator
         [STAThread]
         static void Main()
         {
+            VotingCount vote = new VotingCount();
+            vote.PassRules("Simple");
+
             Loader loader = new Loader();
 
             for (int i = 0; i < loader.countryList.Count; i++)
@@ -24,6 +27,11 @@ namespace EU_Voting_Calculator
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+
+            
+           
         }
+
+      
     }
 }
