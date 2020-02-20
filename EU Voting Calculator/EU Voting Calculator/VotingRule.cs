@@ -15,11 +15,11 @@ namespace EU_Voting_Calculator
         Loader load = new Loader();
 
 
-        public bool PassRules(string RuleType)
+        public string PassRules(string RuleType)
         {
             string info;
             var percentage = 0.27;
-            bool Passed;
+            string Passed = "Rejected";
             
             
             if (RuleType == "Qualified")
@@ -27,13 +27,13 @@ namespace EU_Voting_Calculator
                 info = "Minimum “Yes” required for adoption: (55%)";
                 if (yes >= (percentage*55))
                 {
-                    Passed = true;
+                    Passed = "Approved";
                     return Passed;
 
                 }
                 else
                 {
-                    Passed = false;             
+                    Passed = "Rejected";             
                     return Passed;
                 }
 
@@ -43,13 +43,13 @@ namespace EU_Voting_Calculator
                 info = "Minimum “Yes” required for adoption: (72%)";
                 if (yes >= (percentage*72))
                 {
-                    Passed = true;
+                    Passed = "Approved";
                     return Passed;
 
                 }
                 else
                 {
-                    Passed = false;
+                    Passed = "Rejected";
                     return Passed;
                 }
             }
@@ -58,12 +58,12 @@ namespace EU_Voting_Calculator
                 info = "Minimum “Yes” required for adoption: (50%)";
                 if (yes >= (percentage*50))
                 {
-                    Passed = true;
+                    Passed = "Approved";
                     return Passed;
                 }
                 else
                 {
-                    Passed = false;
+                    Passed = "Rejected";
                     return Passed;
                 }
             }
@@ -72,16 +72,16 @@ namespace EU_Voting_Calculator
                 info = "Minimum “Yes” required for adoption: (100%)";
                 if (yes >= (percentage*100))
                 {
-                    Passed = true;
+                    Passed = "Approved";
                     return Passed;
                 }
                 else
                 {
-                    Passed = false;
+                    Passed = "Rejected";
                     return Passed;
                 }
             }
-            return false ;
+            return "Rejected";
         }
 
         public void Vote()

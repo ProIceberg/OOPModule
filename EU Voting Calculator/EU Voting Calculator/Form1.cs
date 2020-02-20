@@ -556,8 +556,16 @@ namespace EU_Voting_Calculator
 
         private void btnEnter_Click(object sender, EventArgs e)
         {
-            label29.Text = "A";//DOUGLAS ADDIN + " fuck you";
+            checkedListBox2.AccessibleName
+            vote.PassRules("Simple");
+            label29.Text = "Rejected";
+            //DOUGLAS ADDIN + " fuck you";
             label29.Refresh();
+        }
+
+        private void label29_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
