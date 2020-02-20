@@ -171,6 +171,8 @@ namespace EU_Voting_Calculator
             this.button81 = new System.Windows.Forms.Button();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.button82 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -1674,12 +1676,33 @@ namespace EU_Voting_Calculator
             this.checkedListBox2.TabIndex = 144;
             this.checkedListBox2.SelectedIndexChanged += new System.EventHandler(this.checkedListBox2_SelectedIndexChanged);
             // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(1047, 182);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(66, 17);
+            this.label29.TabIndex = 145;
+            this.label29.Text = "Calculate";
+            // 
+            // button82
+            // 
+            this.button82.Location = new System.Drawing.Point(1047, 203);
+            this.button82.Name = "button82";
+            this.button82.Size = new System.Drawing.Size(75, 23);
+            this.button82.TabIndex = 146;
+            this.button82.Text = "btnEnter_Click";
+            this.button82.UseVisualStyleBackColor = true;
+            this.button82.Click += new System.EventHandler(this.btnEnter_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1548, 885);
+            this.Controls.Add(this.button82);
+            this.Controls.Add(this.label29);
             this.Controls.Add(this.checkedListBox2);
             this.Controls.Add(this.button73);
             this.Controls.Add(this.button74);
@@ -1996,6 +2019,8 @@ namespace EU_Voting_Calculator
         private Button button81;
         private CheckedListBox checkedListBox1;
         private CheckedListBox checkedListBox2;
+        private Label label29;
+        private Button button82;
     }
 }
 

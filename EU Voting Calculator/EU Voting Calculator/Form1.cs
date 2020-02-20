@@ -553,5 +553,11 @@ namespace EU_Voting_Calculator
                 checkedListBox2.SetItemCheckState(iIndex, CheckState.Unchecked);
             checkedListBox2.SetItemCheckState(iSelectedIndex, CheckState.Checked);
         }
+
+        private void btnEnter_Click(object sender, EventArgs e)
+        {
+            label29.Text = "A";//DOUGLAS ADDIN + " fuck you";
+            label29.Refresh();
+        }
     }
 }
