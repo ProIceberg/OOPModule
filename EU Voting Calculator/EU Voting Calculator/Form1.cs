@@ -567,14 +567,26 @@ namespace EU_Voting_Calculator
 
         private void btnEnter_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             vote.Vote();
             label29.Text = vote.PassRules();
+=======
+            checkedListBox2.AccessibleName
+            vote.PassRules("Simple");
+            label29.Text = "Rejected";
+            //DOUGLAS ADDIN + " fuck you";
+>>>>>>> a0136547a0a6719c12eff0e2079fa987edb402c6
             label29.Refresh();
             for (int i = 0; i < loader.countryList.Count; i++)
             {
                 Console.WriteLine(loader.countryList[i].getVote());
             }
             Console.WriteLine($"YES: {vote.yes} NO: {vote.no} ABSTAIN: {vote.abstain}");
+        }
+
+        private void label29_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
