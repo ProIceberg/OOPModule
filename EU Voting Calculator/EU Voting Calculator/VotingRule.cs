@@ -9,61 +9,67 @@ namespace EU_Voting_Calculator
     public class VotingCount
     {
         int vote;
-        int yes = 0;
-        int no = 0;
-        int abstain = 0;
-        Loader load = new Loader();
+        public float yes;
+        public float no;
+        public float abstain;
+        public string rule;
 
+        Loader load;
 
-        public bool PassRules(string RuleType)
+        public VotingCount(ref Loader _load)
+        {
+            load = _load;
+        }
+
+        public string PassRules()
         {
             string info;
             var percentage = 0.27;
-            bool Passed;
+            string Passed;
+            string RuleType = rule;
             
-            
-            if (RuleType == "Qualified")
+            if (RuleType == "Qualified Majority")
             {
                 info = "Minimum “Yes” required for adoption: (55%)";
                 if (yes >= (percentage*55))
                 {
-                    Passed = true;
+                    Passed = "Passed";
                     return Passed;
 
                 }
                 else
                 {
-                    Passed = false;             
+                    Passed = "Rejected";             
                     return Passed;
                 }
 
             }
-            if (RuleType == "Reinforced")
+            if (RuleType == "Reinforced Qualified Majority")
             {
                 info = "Minimum “Yes” required for adoption: (72%)";
                 if (yes >= (percentage*72))
                 {
-                    Passed = true;
+                    Passed = "Passed";
                     return Passed;
 
                 }
                 else
                 {
-                    Passed = false;
+                    Passed = "Rejected";
                     return Passed;
                 }
             }
-            if (RuleType == "Simple")
+            if (RuleType == "Simple Majority")
             {
                 info = "Minimum “Yes” required for adoption: (50%)";
                 if (yes >= (percentage*50))
                 {
-                    Passed = true;
+                    Passed = "Passed";
                     return Passed;
                 }
                 else
                 {
-                    Passed = false;
+                    Passed = "Rejected";
                     return Passed;
                 }
             }
@@ -72,16 +78,16 @@ namespace EU_Voting_Calculator
                 info = "Minimum “Yes” required for adoption: (100%)";
                 if (yes >= (percentage*100))
                 {
-                    Passed = true;
+                    Passed = "Passed";
                     return Passed;
                 }
                 else
                 {
-                    Passed = false;
+                    Passed = "Rejected";
                     return Passed;
                 }
             }
-            return false ;
+            return "DEFAULT" ;
         }
 
         public void Vote()
@@ -91,7 +97,7 @@ namespace EU_Voting_Calculator
             no = 0;
             abstain = 0;
 
-            for (int i=0; i< load.countryList.Count; i++)
+            for (int i=0; i < load.countryList.Count; i++)
             {
                 vote = load.countryList[i].getVote();
 

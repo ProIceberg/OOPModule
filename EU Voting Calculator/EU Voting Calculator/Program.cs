@@ -12,12 +12,13 @@ namespace EU_Voting_Calculator
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
+
+        
         static void Main()
         {
-            VotingCount vote = new VotingCount();
-            vote.PassRules("Simple");
-
             Loader loader = new Loader();
+            VotingCount vote = new VotingCount(ref loader);
+            //vote.PassRules("Simple");
 
             for (int i = 0; i < loader.countryList.Count; i++)
             {
@@ -27,7 +28,7 @@ namespace EU_Voting_Calculator
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Application.Run(new Form1(ref loader));
+            Application.Run(new Form1(ref loader, ref vote));
            
 
             

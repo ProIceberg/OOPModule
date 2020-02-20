@@ -12,17 +12,17 @@ namespace EU_Voting_Calculator
         public string flag;
         public string name;
         public float population;
-        public int vote = 0;
+        public int _vote;
 
         //Method used to get the state of the vote
         public int getVote()
         {
-            return vote;
+            return _vote;
         }
         //Method used to set the state of the vote
         public void setVote(int newVote)
         {
-            vote = newVote;
+            _vote = newVote;
         }
 
         //Constructor for the country, takes a string containing the information for the country
